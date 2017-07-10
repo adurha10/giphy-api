@@ -25,7 +25,7 @@ $("#submit-new-btn").on("click", function(event) {
 function searchButtonClick() {
       var subject = $(this).text();
 
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         subject + "&api_key=dc6zaTOxFJmzC&limit=10";
 
       $.ajax({
